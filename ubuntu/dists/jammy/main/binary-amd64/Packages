@@ -121,6 +121,30 @@ Description: documentation for the python-frontmatter
   python-frontmatter is a small package to load and parse files (or just text)
    with YAML (or JSON, TOML or other) front matter.
 
+Package: python-pygit2-doc
+Source: python-pygit2
+Version: 1.14.1-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1067
+Depends: libjs-sphinxdoc (>= 4.3), sphinx-rtd-theme-common (>= 1.0.0+dfsg)
+Multi-Arch: foreign
+Homepage: https://github.com/libgit2/pygit2
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-pygit2/python-pygit2-doc_1.14.1-2_all.deb
+Size: 102938
+SHA512: 84f77be64832e99096845a88228d243a00719b09179ad2972c68ba781e63602a04d74c1451fcad613724dbe761e0a037916d7aeac294a2cdb7e09f7bf4281508
+SHA256: 0dfc3848703779a4901aca7c2589b8a51881c7bceb0e56f46adf07a04d2cd076
+SHA1: 698390b23806671ce036444c4b8a1b916ea3b6ae
+MD5sum: a490c7f6f2257ea8cb46190a7f000974
+Description: Python bindings for libgit2 (Documentation)
+ The Pygit2 module provides a set of Python bindings to the libgit2 shared
+ library. libgit2 implements the core of Git. Pygit2 works with Python 2.7,
+ 3.x and pypy.
+ .
+ This package contains the documentation.
+
 Package: python-pygments-doc
 Source: pygments
 Version: 2.14.0-1
@@ -271,6 +295,30 @@ Description: Package Discovery and Resource Access using pkg_resources
  modules or subpackages, and APIs for managing Python's current
  "working set" of active packages.
 
+Package: python3-pygit2
+Source: python-pygit2
+Version: 1.14.1-2
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1135
+Depends: python3 (<< 3.12), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any, libc6 (>= 2.14), libgit2-1.7 (>= 1.7.0), openssl
+Suggests: python-pygit2-doc
+Homepage: https://github.com/libgit2/pygit2
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pygit2/python3-pygit2_1.14.1-2_amd64.deb
+Size: 182274
+SHA512: 369faa1f36859bc35652dc9e4e8540c91ed0bfc16cba833eb2b29a8d1fd65607e32d61c12f625e174ec376109daad2aed0322b98b36ea940f35c1d3797f5d558
+SHA256: 1e9218baca725089cddb67e2e5c11bbde97e5a249a650ea8899ec219d1d36628
+SHA1: 5e02de6f9f9143a97d0cdce6363438d781040d05
+MD5sum: eb841d2066064cd26ac0e81d2f2772ca
+Description: Python bindings for libgit2 (Python 3 module)
+ The Pygit2 module provides a set of Python bindings to the libgit2 shared
+ library. libgit2 implements the core of Git. Pygit2 works with Python 2.7,
+ 3.x and pypy.
+ .
+ This package contains the Python 3 module.
+
 Package: python3-pygments
 Source: pygments
 Version: 2.14.0-1
@@ -302,6 +350,51 @@ Description: syntax highlighting package written in Python 3
    * support for new languages and formats are added easily
    * a number of output formats, presently HTML, LaTeX and ANSI sequences
    * it is usable as a command-line tool and as a library
+
+Package: python3-rich
+Source: rich
+Version: 13.5.2-1
+Architecture: all
+Maintainer: Sandro Tosi <morph@debian.org>
+Installed-Size: 1047
+Depends: python3-markdown-it, python3-pygments (>= 2.13.0), python3-typing-extensions (>= 3.7.4) | python3 (>> 3.9), python3:any
+Homepage: https://github.com/willmcgugan/rich
+Priority: optional
+Section: python
+Filename: pool/main/r/rich/python3-rich_13.5.2-1_all.deb
+Size: 195274
+SHA512: 00a7ce093fd2a93e1eeaf140012dd301b38026a5ae79ed0cf34bc63c5fafbc5718f2c0573e86caf613c488c7656169beb464c4271113784e4776249501236b9f
+SHA256: 09c2cf4c113d99d9a7ff5c0b713edfaa884a6f2c8dd0ad3add6673c2c37894c5
+SHA1: d040f58d12866a61557fa6866bf6b10ef374d35a
+MD5sum: 0d3015eab5cd16f0388a77eaa3ac409c
+Description: render rich text, tables, progress bars, syntax highlighting, markdown and more
+ Rich is a Python library for rich text and beautiful formatting in the
+ terminal.
+ .
+ The Rich API makes it easy to add color and style to terminal output. Rich can
+ also render pretty tables, progress bars, markdown, syntax highlighted source
+ code, tracebacks, and more — out of the box.
+ .
+ Here's a list of the core functionalities of rich:
+ .
+  * to effortlessly add rich output to your application, you can import the rich
+    print method, which has the same signature as the builtin Python function
+  * Rich can be installed in the Python REPL, so that any data structures will
+    be pretty printed and highlighted
+  * for more control over rich terminal content, import and construct a Console
+    object. The Console object has a print method which has an intentionally
+    similar interface to the builtin print function
+  * to insert an emoji in to console output place the name between two colons
+  * Rich can render flexible tables with unicode box characters. There is a
+    large variety of formatting options for borders, styles, cell alignment etc
+  * Rich can render multiple flicker-free progress bars to track long-running
+    tasks.
+  * Rich can render content in neat columns with equal or optimal width.
+  * Rich can render markdown and does a reasonable job of translating the
+    formatting to the terminal
+  * Rich can render beautiful tracebacks which are easier to read and show more
+    code than standard Python tracebacks. You can set Rich as the default
+    traceback handler so all uncaught exceptions will be rendered by Rich.
 
 Package: python3-semver
 Source: python-semver
@@ -353,6 +446,29 @@ SHA1: d97a2161b4d57b84de2ac7728348bf253d25ae65
 MD5sum: 492a2abeb7cfca218adafe3058177139
 Description: Python3 Distutils Enhancements
  Extensions to the python-distutils for large or complex distributions.
+
+Package: python3-setuptools-rust
+Source: python-setuptools-rust
+Version: 1.5.2-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 92
+Depends: python3-setuptools, python3-pkg-resources, python3-semantic-version, python3-typing-extensions (>= 3.7.4.3), python3:any, rustc, cargo
+Homepage: https://github.com/PyO3/setuptools-rust
+Priority: optional
+Section: python
+Filename: pool/main/p/python-setuptools-rust/python3-setuptools-rust_1.5.2-1_all.deb
+Size: 20160
+SHA512: 8d3f7de85d04f2f254d8fe817536ed842eda32a681494142c407873a36c540855454182583e3f570e85e7c312c3b3802b8939c1c9a24d358512cdde418cf3477
+SHA256: 22297d4629f76b4be2e41868bc9d200c4fb4cfc9aae4dc36959fe89e65ad462b
+SHA1: 12971fe708b17b6f07be7e54dd44fba1817e0617
+MD5sum: ecb678f261d016538ef2ff6e0ae9172a
+Description: Setuptools Rust extension plugin
+ setuptools-rust is a plugin for setuptools to build Rust Python
+ extensions implemented with PyO3 or rust-cpython.
+ .
+ Compile and distribute Python extensions written in Rust as easily as
+ if they were written in C.
 
 Package: python3-setuptools-whl
 Source: setuptools
