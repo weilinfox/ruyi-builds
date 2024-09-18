@@ -19,6 +19,31 @@ MD5sum: f57bffdba88be46c1152e1820e24bec7
 Description: This is a small package to load and parse files (or just text)
  with YAML (or JSON, TOML or other) front matter.
 
+Package: python3-maturin
+Source: python-maturin
+Version: 1.6.0-3
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 13023
+Depends: python3-tomli | python3 (>> 3.11), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/pyo3/maturin
+Priority: optional
+Section: python
+Filename: pool/main/p/python-maturin/python3-maturin_1.6.0-3_amd64.deb
+Size: 3642160
+SHA512: 959cb1f7ae1070268ae6eafbab6fe3376d28c8b6b9ee0e7c4149ca6bf6381e23ff1625ddd13407e90637209b6ac855be32083da053d87f66d3befcf17ce8456d
+SHA256: e0177d5b4628806633b303ff6108c8bc039a688a359891a76d2e9f370994492b
+SHA1: 9cb398403e9eab7f1fe7562622eb43e286104cee
+MD5sum: 51763c839f7e35fc9d92650d24d5aec2
+Description: Build and publish crates with pyo3
+ Build tool and publish crates with pyo3, rust-cpython, cffi and uniffi
+ bindings as well as rust binaries as python packages.
+ .
+ This project is meant as a zero configuration replacement for setuptools-rust
+ and milksnake. It supports building wheels for python 3.7+ on windows, linux,
+ mac and freebsd, can upload them to pypi and has basic pypy and graalpy
+ support.
+
 Package: python3-semver
 Source: python-semver
 Version: 3.0.2-2
