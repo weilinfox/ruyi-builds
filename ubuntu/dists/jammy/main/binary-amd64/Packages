@@ -171,7 +171,7 @@ Description: documentation for the Pygments
 
 Package: python-ruyi-doc
 Source: python-ruyi
-Version: 0.17.0-3
+Version: 0.17.0-4
 Architecture: all
 Maintainer: weilinfox <caiweilin@iscas.ac.cn>
 Installed-Size: 38
@@ -180,12 +180,12 @@ Multi-Arch: foreign
 Homepage: https://github.com/ruyisdk/ruyi
 Priority: optional
 Section: doc
-Filename: pool/main/p/python-ruyi/python-ruyi-doc_0.17.0-3_all.deb
-Size: 20412
-SHA512: c21712b660298febd02e9a806490d424956ccf5807c5a4968f79bb35a50bca1527cc2ecf9a34881428909dbc4bc553479f7f1094c7aa676449bde1c3f393a056
-SHA256: b2a9a68808e6364ed412dda911d4ae68db70930e689a4ce934c4b216628c5a4b
-SHA1: 2ccec687561629bd6d60de3eb1e62423c1da85dd
-MD5sum: 3b5b94c035c8e30130cf60bfe37b8808
+Filename: pool/main/p/python-ruyi/python-ruyi-doc_0.17.0-4_all.deb
+Size: 20428
+SHA512: 13b49115664de20009c9d252e0160be89f0d07a9743fca70bc48053f4263e5c984e2de89e80451db3866fff83e40fd3e65c8d77e0effa4d3e0853a8e0eb068f5
+SHA256: 5274ea9be125efdec31b28fcf83156ff9e459a19f868a3ed4909ed2ae0d954e9
+SHA1: cdd41c4bf4b879819dd8037b204eac1b4b70600f
+MD5sum: c3a28fe3182e1c84531f5f6869264ee2
 Description: documentation for ruyi
  Ruyi is a package manager for RuyiSDK.
 
@@ -465,22 +465,22 @@ Description: render rich text, tables, progress bars, syntax highlighting, markd
 
 Package: python3-ruyi
 Source: python-ruyi
-Version: 0.17.0-3
+Version: 0.17.0-4
 Architecture: all
 Maintainer: weilinfox <caiweilin@iscas.ac.cn>
 Installed-Size: 282
-Depends: python3-arpy, python3-certifi, python3-jinja2, python3-packaging, python3-pygit2, python3-requests, python3-rich, python3-semver, python3-tomlkit, python3-typeshed, python3-yaml, python3:any
+Depends: python3-arpy, python3-certifi, python3-jinja2, python3-packaging (>= 24.0), python3-pygit2 (>= 1.14), python3-requests, python3-rich (>= 13.5), python3-semver (>= 3), python3-tomlkit (>= 0.12.4), python3-typeshed, python3-yaml, python3:any, python3-cffi (>= 1.16), python3-frontmatter, python3-xingque
 Suggests: python-ruyi-doc
 Multi-Arch: foreign
 Homepage: https://github.com/ruyisdk/ruyi
 Priority: optional
 Section: python
-Filename: pool/main/p/python-ruyi/python3-ruyi_0.17.0-3_all.deb
-Size: 59590
-SHA512: e05a12349ecae8b7bbe85b516d82c498581f322c7fd3e6c2362bfd81b1a5c40a7d29b0b057ed792de87fd0bff7c0be6be58e3077678edf4874cd8ce683dba8d0
-SHA256: d7e56b65482fcc0862c13c884d3c46b4b492fc8648d47d18ecac09b42edda89b
-SHA1: 16cf4afbb0fff41444e813b1b97c7c9fda2026ec
-MD5sum: da3fec7403792aeccd98a8ce1f512a1a
+Filename: pool/main/p/python-ruyi/python3-ruyi_0.17.0-4_all.deb
+Size: 59654
+SHA512: f5fb7e886326bbcd33f08736a96383d607eb34e98826f8612e39edb9f1f0dbcd93bf7b7eb4a3d2fb6e8ffbe34851d17c7057e31c58561644515f9946c70fa4d6
+SHA256: b5b715f1bdc4eb33ce57a0b691fdc38eeb5d0db332b16c06ec8c43f9dbd6690c
+SHA1: 1e4f8f07ae11c9752cb56fe87d1777417d753f41
+MD5sum: cb43083a0cc0ef1c12250b28c59628dd
 Description: The package manager for RuyiSDK.
 
 Package: python3-semver
@@ -628,7 +628,7 @@ Description: Yet another Python binding to starlark-rust,
 
 Package: ruyi
 Source: python-ruyi
-Version: 0.17.0-3
+Version: 0.17.0-4
 Architecture: all
 Maintainer: weilinfox <caiweilin@iscas.ac.cn>
 Installed-Size: 15
@@ -637,11 +637,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/ruyisdk/ruyi
 Priority: optional
 Section: python
-Filename: pool/main/p/python-ruyi/ruyi_0.17.0-3_all.deb
-Size: 3538
-SHA512: 4425e63e541e2f45b0b1b56f4ba1208bcf47323811fd01ef6e8b56e7493e3989ee6e9e20504435a2aaff7ee80f2c63e29ae35770aeb498b76fa567ca5f43b3ed
-SHA256: 9cf866a2f3aa8ca2693d7cba8b674a7515785ee52e3cfddef67580a94798288f
-SHA1: 090a22269030b7b71954e13792f4270b983f4ebb
-MD5sum: ba446d0f7f03878952645f100093c77e
+Filename: pool/main/p/python-ruyi/ruyi_0.17.0-4_all.deb
+Size: 3570
+SHA512: 768c904e4ae54b5ed05f9bb2e470efd6426c69f93fc56f2008c01314e51e2e6c2ccadbfdb05b8731e0dc0d31371f539bf461bf0b977400a8e4245d7c0b8cd833
+SHA256: ca3dd692f48d1e00832321f5d71d06b04b7b985840bd3ff62008bb7ceb4a85c6
+SHA1: f8bbbbb197e06c006d602c7447ed91379366595f
+MD5sum: 1d41ad68c95af5d9aee76531c19e75a9
 Description: The package manager for RuyiSDK.
 
