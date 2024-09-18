@@ -1,3 +1,23 @@
+Package: python-ruyi-doc
+Source: python-ruyi
+Version: 0.17.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 38
+Recommends: python3-ruyi
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-ruyi/python-ruyi-doc_0.17.0-3_all.deb
+Size: 20412
+SHA512: c21712b660298febd02e9a806490d424956ccf5807c5a4968f79bb35a50bca1527cc2ecf9a34881428909dbc4bc553479f7f1094c7aa676449bde1c3f393a056
+SHA256: b2a9a68808e6364ed412dda911d4ae68db70930e689a4ce934c4b216628c5a4b
+SHA1: 2ccec687561629bd6d60de3eb1e62423c1da85dd
+MD5sum: 3b5b94c035c8e30130cf60bfe37b8808
+Description: documentation for ruyi
+ Ruyi is a package manager for RuyiSDK.
+
 Package: python3-frontmatter
 Source: python-frontmatter
 Version: 1.1.0-3
@@ -18,6 +38,26 @@ SHA1: fbe08c990186c2d731e7a924923d9d447766e9f1
 MD5sum: f57bffdba88be46c1152e1820e24bec7
 Description: This is a small package to load and parse files (or just text)
  with YAML (or JSON, TOML or other) front matter.
+
+Package: python3-ruyi
+Source: python-ruyi
+Version: 0.17.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 282
+Depends: python3-arpy, python3-certifi, python3-jinja2, python3-packaging, python3-pygit2, python3-requests, python3-rich, python3-semver, python3-tomlkit, python3-typeshed, python3-yaml, python3:any
+Suggests: python-ruyi-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ruyi/python3-ruyi_0.17.0-3_all.deb
+Size: 59590
+SHA512: e05a12349ecae8b7bbe85b516d82c498581f322c7fd3e6c2362bfd81b1a5c40a7d29b0b057ed792de87fd0bff7c0be6be58e3077678edf4874cd8ce683dba8d0
+SHA256: d7e56b65482fcc0862c13c884d3c46b4b492fc8648d47d18ecac09b42edda89b
+SHA1: 16cf4afbb0fff41444e813b1b97c7c9fda2026ec
+MD5sum: da3fec7403792aeccd98a8ce1f512a1a
+Description: The package manager for RuyiSDK.
 
 Package: python3-semver
 Source: python-semver
@@ -48,4 +88,23 @@ Description: helps to compare semantic versioning - Python 3.x
  extensions to the MAJOR.MINOR.PATCH format.
  .
  This package contains the Python 3.x module.
+
+Package: ruyi
+Source: python-ruyi
+Version: 0.17.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 15
+Depends: python3.11 | python3 (>> 3.11), python3-ruyi
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ruyi/ruyi_0.17.0-3_all.deb
+Size: 3538
+SHA512: 4425e63e541e2f45b0b1b56f4ba1208bcf47323811fd01ef6e8b56e7493e3989ee6e9e20504435a2aaff7ee80f2c63e29ae35770aeb498b76fa567ca5f43b3ed
+SHA256: 9cf866a2f3aa8ca2693d7cba8b674a7515785ee52e3cfddef67580a94798288f
+SHA1: 090a22269030b7b71954e13792f4270b983f4ebb
+MD5sum: ba446d0f7f03878952645f100093c77e
+Description: The package manager for RuyiSDK.
 
