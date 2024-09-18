@@ -1,0 +1,15 @@
+Origin: ruyi
+Label: ruyi
+Suite: stable
+Codename: jammy
+Architectures: amd64 aarch64 riscv64
+Components: main
+Description: Ruyi ubuntu jammy repository
+
+Origin: ruyi
+Label: ruyi
+Suite: stable
+Codename: noble
+Architectures: amd64 aarch64 riscv64
+Components: main
+Description: Ruyi ubuntu noble repository

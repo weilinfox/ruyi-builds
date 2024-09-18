@@ -1,0 +1,406 @@
+Package: libgit2-1.7
+Source: libgit2
+Version: 1.7.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1244
+Depends: libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libhttp-parser2.9 (>= 2.1), libpcre2-8-0 (>= 10.22), libssh2-1 (>= 1.7.0), libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://libgit2.github.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgit2/libgit2-1.7_1.7.2-1_amd64.deb
+Size: 529448
+SHA512: 6608971d6529acf643bed791446bed8e933dc6525320b4a5af73358f9816a38c7e8822f3903ef4342d6bbd851827d274364a4952ca1a9cc427bcc6804f35a586
+SHA256: 0e5ab7366612dc90bd763cadbf85a42b3f4283be7cbd7b2433050792350bec17
+SHA1: 5fbd8dfed9de43e3764d0ce6ec4acaa0bd7fb2f2
+MD5sum: 8655457be689c916ef5d9e03525fb777
+Description: low-level Git library
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+
+Package: libgit2-dev
+Source: libgit2
+Version: 1.7.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3510
+Depends: libgit2-1.7 (= 1.7.2-1), zlib1g-dev, libssl-dev, libssh2-1-dev, libhttp-parser-dev, libpcre2-dev
+Multi-Arch: same
+Homepage: https://libgit2.github.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libgit2/libgit2-dev_1.7.2-1_amd64.deb
+Size: 852264
+SHA512: c3dbb965a208d5435cba8602d706ec7be11ea9e5282559c94930e542a9cb78433ceccd8df2623c6d5ea84a0ba3f1f648c9936cf252211d09a90f980e7195cbb1
+SHA256: dd4a580a6460bb757124d3da816201e23a286c99dcb301f904eac6f3c1f051ef
+SHA1: 845a3b555fd1fd3202c8cd98757d63e2fc2b78ed
+MD5sum: 184b3bae4596860f893db649a745f0d5
+Description: low-level Git library (development files)
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+ .
+ This package contains the development files for libgit2.
+Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+
+Package: libgit2-fixtures
+Source: libgit2
+Version: 1.7.2-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 17791
+Multi-Arch: foreign
+Homepage: https://libgit2.github.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgit2/libgit2-fixtures_1.7.2-1_all.deb
+Size: 2683052
+SHA512: e977fc1228f1edf03789a16ed8b81d7b604b25a9dd21f8ce081cf92b55e2945b48d7731257099d261cd9daa07322e7103f008e64b1608d7ad35c2fef9d2595ba
+SHA256: ef3040aff0cc7e2598ab754b3eac8eed14e21e5fbc3d773aa3148b75b2be8000
+SHA1: 06ddd4c78a2fb73a474bfeb87f622fc1b2ebe292
+MD5sum: 1a124d0f1fa1b320a303c17e46df7caa
+Description: low-level Git library - test suite examples
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+ .
+ This package provides the test examples of the library, which
+ can be useful for other pieces of software relying on libgit2,
+ for testing purposes.
+Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+
+Package: python-cffi-doc
+Source: python-cffi
+Version: 1.16.0-3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 858
+Depends: libjs-sphinxdoc (>= 4.3)
+Multi-Arch: foreign
+Homepage: https://cffi.readthedocs.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-cffi/python-cffi-doc_1.16.0-3_all.deb
+Size: 149154
+SHA512: ba9c96a5d41eceb29230ff60b32901b3071c30b50805e65cafa559cc4b6a97c94678c44f38422b6a4653c1cff7fdc610e410295b52bc5533caaae06a205cd6dc
+SHA256: fa1496052f14fb9ed57d6730a741c6d8b1fc8b24bf22ef1596693347968bd7f8
+SHA1: bde81e7e826f8a01cf1a48bbfefc3aacaf1f3b11
+MD5sum: 497d029d4e60063816c68b089f2a5fb7
+Description: Foreign Function Interface for Python calling C code - documentation
+ Convenient and reliable way of calling C code from Python.
+ .
+ The aim of this project is to provide a convenient and reliable way of calling
+ C code from Python. It keeps Python logic in Python, and minimises the C
+ required. It is able to work at either the C API or ABI level, unlike most
+ other approaches, that only support the ABI level.
+ .
+ This package contains the developer documentation for cffi.
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+
+Package: python-frontmatter-doc
+Source: python-frontmatter
+Version: 1.1.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 13
+Recommends: python3-frontmatter
+Multi-Arch: foreign
+Homepage: https://github.com/eyeseast/python-frontmatter
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-frontmatter/python-frontmatter-doc_1.1.0-3_all.deb
+Size: 3836
+SHA512: 6c2181fb27dd1c3b7b0027712b25b8b42342142062e1c9c76c3be52547440b1a48d705a30ee2c1b54e4cc7da775f6227f0fc5852e0b91d8c5576a394aa1b01dd
+SHA256: 8c50ffc4de00a3f076339426031d60d112842ee60b0e5280f4439bc81566b6d2
+SHA1: 20ce90cba2a4224d003c283a04c8b7017c981732
+MD5sum: 8614f20091ed64f3e0ad6583caa0bbee
+Description: documentation for the python-frontmatter
+  python-frontmatter is a small package to load and parse files (or just text)
+   with YAML (or JSON, TOML or other) front matter.
+
+Package: python-pygments-doc
+Source: pygments
+Version: 2.14.0-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 2199
+Depends: libjs-sphinxdoc (>= 4.3)
+Recommends: python3-pygments
+Multi-Arch: foreign
+Homepage: http://pygments.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pygments/python-pygments-doc_2.14.0-1_all.deb
+Size: 480362
+SHA512: ab9aa39391a757ffbc8c333d76846c6c55adb22dde11bef045d5b79c7d586d9049005c711ddadc51fe1f64733e167cd2ed957d6d5655b6bf01be4c2666bbf6e4
+SHA256: 4a45a06534336bf96309e9d208ee7afabaae5849a0f234e9cd0e02ef231bef67
+SHA1: 625e9cbfaf4b7c143563c45fbb4018e5e27cfb0b
+MD5sum: 9da6cc5075f984a3d44e827cf487589a
+Description: documentation for the Pygments
+ Pygments is syntax highlighting package.
+ .
+ This package contains the documentation for Pygments in HTML and
+ reStructuredText format.
+
+Package: python3-cffi
+Source: python-cffi
+Version: 1.16.0-3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 798
+Depends: python3-cffi-backend (<< 1.16.0-3+c), python3-cffi-backend (>= 1.16.0-3), python3 (<< 3.12), python3 (>= 3.10~), python3-pycparser, python3:any
+Suggests: python3-dev
+Homepage: https://cffi.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-cffi/python3-cffi_1.16.0-3_all.deb
+Size: 175744
+SHA512: 6a180ce43842da43b454ea0356b3c3cb378e7e48beea9aca8dbd8e61e014bf35e2627ae589360f57556bb714fb81a488ebe075fe566f90aa7b4d7119f8c16171
+SHA256: a71d7b3373cdd98bbd2795567ba996b78f507b9bdded123affa1bf4dbb3cd793
+SHA1: da007a6e378a9a1c5d835d5956f0c330f14d727f
+MD5sum: 94bce2f0a6ca2ba6f215797c40964ca2
+Description: Foreign Function Interface for Python 3 calling C code
+ Convenient and reliable way of calling C code from Python 3.
+ .
+ The aim of this project is to provide a convenient and reliable way of calling
+ C code from Python. It keeps Python logic in Python, and minimises the C
+ required. It is able to work at either the C API or ABI level, unlike most
+ other approaches, that only support the ABI level.
+ .
+ This package contains the necessary build and runtime support for cffi
+ modules.
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+
+Package: python3-cffi-backend
+Source: python-cffi
+Version: 1.16.0-3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 26
+Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
+Multi-Arch: same
+Homepage: https://cffi.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-cffi/python3-cffi-backend_1.16.0-3_amd64.deb
+Size: 20020
+SHA512: 63f970c0e8d7d125e5d76eadf05337650f7ca0b81b0c4aa96fc2061a01e42a858c8848830ea817dca3abb706cd142c830dcf7d8825828606437b19114222b11a
+SHA256: 39d16b9c2d268efbc91cf88a959642b7e4d789b67eb1218951727c43a21c4ee6
+SHA1: d1b6375a72b7b631625a12fa4aad8497c50e14d0
+MD5sum: 65112c3d06d9bab3eaf8699d761e748f
+Description: Foreign Function Interface for Python 3 calling C code - runtime
+ Convenient and reliable way of calling C code from Python 3.
+ .
+ The aim of this project is to provide a convenient and reliable way of calling
+ C code from Python. It keeps Python logic in Python, and minimises the C
+ required. It is able to work at either the C API or ABI level, unlike most
+ other approaches, that only support the ABI level.
+ .
+ This package contains the runtime support for pre-built cffi modules.
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+
+Package: python3-frontmatter
+Source: python-frontmatter
+Version: 1.1.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 46
+Depends: python3-yaml, python3:any
+Suggests: python-frontmatter-doc
+Multi-Arch: foreign
+Homepage: https://github.com/eyeseast/python-frontmatter
+Priority: optional
+Section: python
+Filename: pool/main/p/python-frontmatter/python3-frontmatter_1.1.0-3_all.deb
+Size: 9702
+SHA512: 42b18f89f959a5dfc802aa963247c5460aa5297652d17de079e53cca1b1039de75bcf9c446040f5a3f6a05aea0426d20245d51bec810508dcef4e12ceb3a5aaf
+SHA256: a7ad6285690e5a49a08b894f818f54079bce13c091a0f82cc671dc30ca8e3004
+SHA1: fbe08c990186c2d731e7a924923d9d447766e9f1
+MD5sum: f57bffdba88be46c1152e1820e24bec7
+Description: This is a small package to load and parse files (or just text)
+ with YAML (or JSON, TOML or other) front matter.
+
+Package: python3-packaging
+Source: python-packaging
+Version: 24.0-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 187
+Depends: python3:any
+Homepage: https://pypi.python.org/pypi/packaging
+Priority: optional
+Section: python
+Filename: pool/main/p/python-packaging/python3-packaging_24.0-1_all.deb
+Size: 42416
+SHA512: c2e6b4a6eb6e494a13f4126e34f74e09418c314eceb61a1cf11e77785ff514d2a92085c5f32ba633e8a68eca99a6d934776288f4267b8f8760db6464f2997ce7
+SHA256: b2ce7b3b7fb54f31ac5f6890951233a5e18ab29bc1016781e2a468bb353cfb58
+SHA1: 06950c9381d023095c8b91492e4109235385ea81
+MD5sum: 8c95380da8e2e2b7bd893a3cf4f10a2c
+Description: core utilities for python3 packages
+ These core utilities currently consist of:
+  - Version Handling (PEP 440)
+  - Dependency Specification (PEP 440)
+
+Package: python3-pkg-resources
+Source: setuptools
+Version: 68.1.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 713
+Depends: python3:any
+Suggests: python3-setuptools
+Multi-Arch: foreign
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-pkg-resources_68.1.2-1_all.deb
+Size: 216038
+SHA512: a8cf54a6dab3df6e616c1716f1006b7f58a5ecb9960ccdf299646d8e8efa3f9bbcd7ba4cff8eb9d5de054a8f875a93e662cdaef02cd60f1466474250aba3cd45
+SHA256: 6935310718407719058629772dc6c71f2094a02ad2b72a9bfc7d7aa0edc27a58
+SHA1: 9761dbf0de5169b130225cc0cc1808ec328d67f9
+MD5sum: b1cc823934534ae577f68e37ab4652ae
+Description: Package Discovery and Resource Access using pkg_resources
+ The pkg_resources module provides an API for Python libraries to
+ access their resource files, and for extensible applications and
+ frameworks to automatically discover plugins.  It also provides
+ runtime support for using C extensions that are inside zipfile-format
+ eggs, support for merging packages that have separately-distributed
+ modules or subpackages, and APIs for managing Python's current
+ "working set" of active packages.
+
+Package: python3-pygments
+Source: pygments
+Version: 2.14.0-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 4227
+Depends: python3-pkg-resources, python3:any
+Suggests: python-pygments-doc, ttf-bitstream-vera
+Breaks: python-pygments (<< 2.3.1+dfsg-4~)
+Replaces: python-pygments (<< 2.3.1+dfsg-4~)
+Multi-Arch: foreign
+Homepage: http://pygments.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygments/python3-pygments_2.14.0-1_all.deb
+Size: 815836
+SHA512: 89556d1adde269b39744a9f3567a642ac270aa8a08077d7f3c53517c372421473568146c28c716e544d0c505166933f66274217d7a35b01223ff20782a0d4f95
+SHA256: 51bc3e2966877bc0314c8ba198bd2a6fda8ed48a02b26a6bd1b284db6500dbda
+SHA1: 89f6fd9c48d3a4de2702cecc53933558c8d5bba8
+MD5sum: e63046c8901e5424ecbdc2368f7d6085
+Description: syntax highlighting package written in Python 3
+ Pygments aims to be a generic syntax highlighter for general use in all kinds
+ of software such as forum systems, wikis or other applications that need to
+ prettify source code.
+ .
+ Highlights are:
+   * a wide range of common languages and markup formats is supported
+   * special attention is paid to details, increasing quality by a fair amount
+   * support for new languages and formats are added easily
+   * a number of output formats, presently HTML, LaTeX and ANSI sequences
+   * it is usable as a command-line tool and as a library
+
+Package: python3-semver
+Source: python-semver
+Version: 3.0.2-2
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 76
+Depends: python3:any
+Homepage: https://github.com/python-semver/python-semver
+Priority: optional
+Section: python
+Filename: pool/main/p/python-semver/python3-semver_3.0.2-2_all.deb
+Size: 17158
+SHA512: 26772d9b66e9a1aebbf9cfa606dfb0195937a86c572ea95826fae91055979fd0aeaadcd92e7ddbd1607ba306a3ff01cd33f4d5ead53c89c683b44d65ad29fc36
+SHA256: 7865d051e8338d0c23014c297d4c99d91eb791a990013c19967ea7f1bfb35872
+SHA1: a5ae886ae22592812aac41e4a68ba54219b64b42
+MD5sum: 94697b93d760f9459e61a08b7e430296
+Description: helps to compare semantic versioning - Python 3.x
+ This Python module helps to compare versions as noted at http://semver.org/.
+ The system is like this: given a version number MAJOR.MINOR.PATCH, increment
+ the:
+  * MAJOR version when you make incompatible API changes,
+  * MINOR version when you add functionality in a backwards-compatible
+    manner,
+  * PATCH version when you make backwards-compatible bug fixes.
+ .
+ Additional labels for pre-release and build metadata are available as
+ extensions to the MAJOR.MINOR.PATCH format.
+ .
+ This package contains the Python 3.x module.
+
+Package: python3-setuptools
+Source: setuptools
+Version: 68.1.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2214
+Depends: python3-pkg-resources (= 68.1.2-1), python3:any
+Suggests: python-setuptools-doc
+Multi-Arch: foreign
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-setuptools_68.1.2-1_all.deb
+Size: 464896
+SHA512: 5983f071371920c1d01f37e85912cd64705453c29a990fffde8d9b10a4b9f94005f8d84ff0f6a555cf9f46661e6cfc37f2e96cb7519cdac8bc9d2b0e046b1ef9
+SHA256: 3a63adc27842c9968fe29eee768a0f95d7ee449cf2db8a9866aa208e854dec80
+SHA1: d97a2161b4d57b84de2ac7728348bf253d25ae65
+MD5sum: 492a2abeb7cfca218adafe3058177139
+Description: Python3 Distutils Enhancements
+ Extensions to the python-distutils for large or complex distributions.
+
+Package: python3-setuptools-whl
+Source: setuptools
+Version: 68.1.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 875
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-setuptools-whl_68.1.2-1_all.deb
+Size: 792312
+SHA512: 2bc4996dffed1d9353491319cc2542fbf39626af2af5a4c5c45d93e675e085145ada2ff8648a1364055a19355d25284759526eb2ef34b9e3e9041f6a8582629d
+SHA256: 5ce0a6cf9788cc7da3833e1231388e4be2b62e143b06dc60f5d87c6c88ee92d2
+SHA1: df27e4c813877ed6848c3d0a586728e1c07d2053
+MD5sum: eb5082951e341474f1a4a72cac5e07c1
+Description: Python Distutils Enhancements (wheel package)
+ Extensions to the python-distutils for large or complex distributions.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using setuptools inside a virtual environment.
+
+Package: python3-tomlkit
+Source: python-tomlkit
+Version: 0.12.4-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 188
+Depends: python3:any
+Homepage: https://github.com/sdispater/tomlkit
+Priority: optional
+Section: python
+Filename: pool/main/p/python-tomlkit/python3-tomlkit_0.12.4-1_all.deb
+Size: 39094
+SHA512: 67529649eb2e556dcf92374d6cd638331f2f8fca998a9e9177f9ec4026fd2d3bb3b766c991014703e6d65892aa34048ae233b4c0e34b78ce0a7fd74c9fd15a4b
+SHA256: 13ea96894bddd34f81534f8fabdc7a7c4da8d25522a1c7c3737f551f5566d02f
+SHA1: 1201fb451f54a83bc7ccbbf57e8b3f82fbec4b20
+MD5sum: 714f1bebc4dfc5721a948ac72b4c9daf
+Description: style-preserving TOML library for Python
+ TOML Kit is a 1.0.0rc1-compliant TOML (Tom's Obvious, Minimal Language)
+ library.
+ .
+ It includes a parser that preserves all comments, indentations, whitespace
+ and internal element ordering, and makes them accessible and editable via an
+ intuitive API.
+ .
+ You can also create new TOML documents from scratch using the provided
+ helpers.
+

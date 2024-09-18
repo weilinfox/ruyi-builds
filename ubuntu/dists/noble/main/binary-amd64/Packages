@@ -1,0 +1,51 @@
+Package: python3-frontmatter
+Source: python-frontmatter
+Version: 1.1.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 46
+Depends: python3-yaml, python3:any
+Suggests: python-frontmatter-doc
+Multi-Arch: foreign
+Homepage: https://github.com/eyeseast/python-frontmatter
+Priority: optional
+Section: python
+Filename: pool/main/p/python-frontmatter/python3-frontmatter_1.1.0-3_all.deb
+Size: 9702
+SHA512: 42b18f89f959a5dfc802aa963247c5460aa5297652d17de079e53cca1b1039de75bcf9c446040f5a3f6a05aea0426d20245d51bec810508dcef4e12ceb3a5aaf
+SHA256: a7ad6285690e5a49a08b894f818f54079bce13c091a0f82cc671dc30ca8e3004
+SHA1: fbe08c990186c2d731e7a924923d9d447766e9f1
+MD5sum: f57bffdba88be46c1152e1820e24bec7
+Description: This is a small package to load and parse files (or just text)
+ with YAML (or JSON, TOML or other) front matter.
+
+Package: python3-semver
+Source: python-semver
+Version: 3.0.2-2
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 76
+Depends: python3:any
+Homepage: https://github.com/python-semver/python-semver
+Priority: optional
+Section: python
+Filename: pool/main/p/python-semver/python3-semver_3.0.2-2_all.deb
+Size: 17158
+SHA512: 26772d9b66e9a1aebbf9cfa606dfb0195937a86c572ea95826fae91055979fd0aeaadcd92e7ddbd1607ba306a3ff01cd33f4d5ead53c89c683b44d65ad29fc36
+SHA256: 7865d051e8338d0c23014c297d4c99d91eb791a990013c19967ea7f1bfb35872
+SHA1: a5ae886ae22592812aac41e4a68ba54219b64b42
+MD5sum: 94697b93d760f9459e61a08b7e430296
+Description: helps to compare semantic versioning - Python 3.x
+ This Python module helps to compare versions as noted at http://semver.org/.
+ The system is like this: given a version number MAJOR.MINOR.PATCH, increment
+ the:
+  * MAJOR version when you make incompatible API changes,
+  * MINOR version when you add functionality in a backwards-compatible
+    manner,
+  * PATCH version when you make backwards-compatible bug fixes.
+ .
+ Additional labels for pre-release and build metadata are available as
+ extensions to the MAJOR.MINOR.PATCH format.
+ .
+ This package contains the Python 3.x module.
+
