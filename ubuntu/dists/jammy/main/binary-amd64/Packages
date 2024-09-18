@@ -320,6 +320,28 @@ Description: Package Discovery and Resource Access using pkg_resources
  modules or subpackages, and APIs for managing Python's current
  "working set" of active packages.
 
+Package: python3-poetry-core
+Source: poetry-core
+Version: 1.9.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1131
+Depends: python3:any
+Breaks: python3-cleo (<< 2.0.1-1), python3-poetry (<< 1.7.0+dfsg-1)
+Homepage: https://github.com/python-poetry/poetry-core
+Priority: optional
+Section: python
+Filename: pool/main/p/poetry-core/python3-poetry-core_1.9.0-1_all.deb
+Size: 212754
+SHA512: 66913098ea597dbb66604a8baa1a3f4a016c33e72ba5d1a4f114f32926080c37157102495b670717b6e7ae6b627949ebeecd1fe5275bd89ffd2f2a494476a2ab
+SHA256: 1673246ca155d59fbae7bf4e1a880c257b99a98e78f1c12be5600f981946674c
+SHA1: b62d5d45e174ec5d0afe26b4dc1b0d6fe859be90
+MD5sum: 8f6c109418d08cceb790fcb3040df39b
+Description: Poetry PEP 517 Build Backend
+ A PEP 517 build backend implementation developed for Poetry. This project
+ is intended to be a light weight, fully compliant, self-contained package
+ allowing PEP 517 compatible build frontends to build Poetry managed projects.
+
 Package: python3-pygit2
 Source: python-pygit2
 Version: 1.14.1-2
