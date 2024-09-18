@@ -545,3 +545,22 @@ Description: style-preserving TOML library for Python
  You can also create new TOML documents from scratch using the provided
  helpers.
 
+Package: python3-xingque
+Source: python-xingque
+Version: 0.2.0-1
+Architecture: amd64
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 8351
+Depends: python3 (>= 3~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/xen0n/xingque
+Priority: optional
+Section: python
+Filename: pool/main/p/python-xingque/python3-xingque_0.2.0-1_amd64.deb
+Size: 2206796
+SHA512: ac2f7945ed7f0865de7ed8ea6865b22927bf266f3f8b4f9104f0c93a6d39861771f57b723f86118c66f000c36020a8ccb0010c7853ec0f713110bbd18322815b
+SHA256: acdaa88e399affb0bffe4a742bbc3ca71c8a4c840a2c16986501462c9413942b
+SHA1: b881a8d799bed8053d5024278040a27594c72ec9
+MD5sum: c32403e362f4985ed5fb080490549123
+Description: Yet another Python binding to starlark-rust,
+ exposing the Starlark language to your Python projects.
+
