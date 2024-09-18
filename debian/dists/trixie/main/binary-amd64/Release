@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: ruyi
+Label: ruyi
+Architecture: amd64
+Description: Ruyi debian trixie repository
