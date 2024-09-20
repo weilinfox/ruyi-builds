@@ -2,7 +2,7 @@ Origin: ruyi
 Label: ruyi
 Suite: stable
 Codename: trixie
-Date: Fri, 20 Sep 2024 09:35:19 UTC
+Date: Fri, 20 Sep 2024 10:35:29 UTC
 Architectures: amd64 aarch64 riscv64
 Components: main
 Description: Ruyi debian trixie repository
@@ -13,8 +13,8 @@ MD5Sum:
  bdfc20491d06ada2b2e55c89911e8fc4 5394 main/binary-aarch64/Packages
  4836e6b2253e8d392dd92c9e28b6da6a 2161 main/binary-aarch64/Packages.gz
  27d8cfcab0e421b5e20ac61283c1a4d9 122 main/binary-aarch64/Release
- 2d3da2e934c6c5c435c11e14e2f9dd9b 6542 main/binary-riscv64/Packages
- 331f0dd5ff7f257062bb4e1177174e02 2669 main/binary-riscv64/Packages.gz
+ 0d59b55b8f7a97811dec94c33af9fa3a 7350 main/binary-riscv64/Packages
+ 5df82bbb474ce18a22cef85b7c37a04b 2955 main/binary-riscv64/Packages.gz
  7395338764d5b25e75d09fe9dcf660d0 122 main/binary-riscv64/Release
 SHA1:
  96063d0d74a1ff3593c7774a986072d2e7dae7c0 7342 main/binary-amd64/Packages
@@ -23,8 +23,8 @@ SHA1:
  3f340f38d1aaf6e661e4c6fff0996ff712944b55 5394 main/binary-aarch64/Packages
  fedf3ff1e404c16cbdde48957ce197b14da7be6e 2161 main/binary-aarch64/Packages.gz
  40167a757b5f4fb51176e185c1aaeedc5c3b2cd0 122 main/binary-aarch64/Release
- 3bf01f5d6885389cf83b83f746203d32884dedba 6542 main/binary-riscv64/Packages
- d45cc94d1fb380037eb7a14676e41f97f504ca30 2669 main/binary-riscv64/Packages.gz
+ 2a617c66b18819de0fed721189905f60a69adfee 7350 main/binary-riscv64/Packages
+ d8d36a1e837906deabdf75202a711ecc56d3255e 2955 main/binary-riscv64/Packages.gz
  bb6c5b584a7f3b124484a085966856b462032143 122 main/binary-riscv64/Release
 SHA256:
  8849924ecd04732d568a6539143607f9368684fde838c1b24ecbb8b666b26d68 7342 main/binary-amd64/Packages
@@ -33,8 +33,8 @@ SHA256:
  3c817d28bda2cc40264a08513d4d7a33721945eb5095d88f5620bf68e74e337d 5394 main/binary-aarch64/Packages
  87ad10a93ac281499bd67e7d0ed0fcc0b9aa5a9c7cf72f42373ccd14c665e652 2161 main/binary-aarch64/Packages.gz
  cc29f1ed58d9e8a9d86e5da3cd39bc11e9c311c50d1a5b1017a8075d91d0694b 122 main/binary-aarch64/Release
- ccb445cdd229d7be380acbcdb75566ff32d556cdcf66ddf52a91f7c60c888e1a 6542 main/binary-riscv64/Packages
- a5dde0fe8e61a4fda04892a7e1a5cd3f96956e613f96c899881e8b6cfb204cbe 2669 main/binary-riscv64/Packages.gz
+ 58706582c99986779b7f3a9df021d0719de671e015285fd2d84129864c1b8c8e 7350 main/binary-riscv64/Packages
+ 64c0062ae49e8bd70a549126d99e17ad15317024cc621f62f2ee2448ba5a23d6 2955 main/binary-riscv64/Packages.gz
  39f404af3f7ebc2c1d97986ab9a7a455134440d946498959dbfd8a4813815c0c 122 main/binary-riscv64/Release
 SHA512:
  9f129e506489ff2d1b3ffaeef7dbeccec4252da2098cfd27eadeaeb565d7cd4ed4cd50b25e765199077e30daed33408ad17bedd08472540cbaed105dcdca9bb4 7342 main/binary-amd64/Packages
@@ -43,6 +43,6 @@ SHA512:
  7e1d03f551721589acceb0857b68007499d1a15a2f416500528c5260616811e21b317b59bdfc9fb54ad43a4a778470df1db2e5a72d2743a90e1f1f236758d895 5394 main/binary-aarch64/Packages
  a58345d75a87bc304958d82a5021cb3836fefa5f41481bd24e15e2d1291d87d6ecc579ef1a956bc9098d3b9fdef83425e68eea731123b49fa000a4b524c73b83 2161 main/binary-aarch64/Packages.gz
  f1827820aa473a67c221bb94c89ee3e47322f6c2dad0a6b1a29ea29dad803b911cfccfb3773d16b76a90d9b7b8ad14e14876ac568d671b20010775c6efc8ed3b 122 main/binary-aarch64/Release
- e4e269cea7cb9a54684f4dbe49797acf2024012f4dd68344c091bd57f175a04b4e47b5efdea02f877bb52fdcf6fc969b92a9953cc8ee1fc2bd3fe72973adcc60 6542 main/binary-riscv64/Packages
- cff62c819e03a6f9625251a4cfa798edef77664181d7de78ba783629c244e986699b407790608d59cd791dd2272b9109dbaae466ecca7f60ce28ffce344647cf 2669 main/binary-riscv64/Packages.gz
+ 2ab29ac7afd17622c6e689193063d1996cf7677d3cf874a89d97d1c4a0c6694e72d101bf55c900c3e18dd9b7b2fc1c5aa9a82e801f6cb00195f0e09d47a641c8 7350 main/binary-riscv64/Packages
+ 2aa0d280fd83a596f9dbe0f248071ea71aec2417b3ecdb5713539d662fae2b11678561eafce9f5130c825c83b2ffd5e88f7fd8e4311dcfaecf2f0a9f557d24fd 2955 main/binary-riscv64/Packages.gz
  d62fdc2285770f208f6c54aaa3af59b433e26951aa3f1cf35f37dbf4f5a52602a6a0411a28f6408a91147ad978f7e72d889f3347d415ec79706ee8907d21465f 122 main/binary-riscv64/Release

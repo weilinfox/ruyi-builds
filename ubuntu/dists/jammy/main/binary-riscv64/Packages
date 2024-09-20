@@ -363,6 +363,30 @@ Description: Poetry PEP 517 Build Backend
  is intended to be a light weight, fully compliant, self-contained package
  allowing PEP 517 compatible build frontends to build Poetry managed projects.
 
+Package: python3-pygit2
+Source: python-pygit2
+Version: 1.14.1-2
+Architecture: riscv64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 970
+Depends: python3 (<< 3.12), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any, libc6 (>= 2.27), libgit2-1.7 (>= 1.7.0), openssl
+Suggests: python-pygit2-doc
+Homepage: https://github.com/libgit2/pygit2
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pygit2/python3-pygit2_1.14.1-2_riscv64.deb
+Size: 170044
+SHA512: 84c8b4c85c00e946cd8dcae564fc4862dc17c342f75a3b8662ed49d0e16235b50b5e2acd98df278ba9fe738b0f2e8d5d32cb0701cc1f1e51d9861ad2e3af2450
+SHA256: c20eabb3864f0f4380520faf126d1bbf0143a3856cea19c6da7e55d0643011f9
+SHA1: 740f905c943df542b8a455b9cfd55f4d5d3b611b
+MD5sum: d651deed7b057c66d8a40f9a8c07baca
+Description: Python bindings for libgit2 (Python 3 module)
+ The Pygit2 module provides a set of Python bindings to the libgit2 shared
+ library. libgit2 implements the core of Git. Pygit2 works with Python 2.7,
+ 3.x and pypy.
+ .
+ This package contains the Python 3 module.
+
 Package: python3-pygments
 Source: pygments
 Version: 2.14.0-1
@@ -583,6 +607,25 @@ Description: style-preserving TOML library for Python
  .
  You can also create new TOML documents from scratch using the provided
  helpers.
+
+Package: python3-xingque
+Source: python-xingque
+Version: 0.2.0-1
+Architecture: riscv64
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 7204
+Depends: python3 (>= 3~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/xen0n/xingque
+Priority: optional
+Section: python
+Filename: pool/main/p/python-xingque/python3-xingque_0.2.0-1_riscv64.deb
+Size: 2083396
+SHA512: 3f8f7520f691921c51a58cf36e37fa2b9de847780e99b3efc8502c721fc228ed747c43fd72d5f6fed9c32861c3b13609cf98954de8122c135d437f0fa37a4f75
+SHA256: 0fccbdfd1021669375f34e1cfe1883c8c5b3d0bb5da63bbff34a80d14b84ea6e
+SHA1: b878e89e137628691aa16201beb98f83f77cccc3
+MD5sum: ef9640d1621463cae3e3c8acc693c376
+Description: Yet another Python binding to starlark-rust,
+ exposing the Starlark language to your Python projects.
 
 Package: ruyi
 Source: python-ruyi
