@@ -74,21 +74,21 @@ Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
 
 Package: python-cffi-doc
 Source: python-cffi
-Version: 1.16.0-3
+Version: 1.16.0-4
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 858
+Installed-Size: 857
 Depends: libjs-sphinxdoc (>= 4.3)
 Multi-Arch: foreign
 Homepage: https://cffi.readthedocs.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/python-cffi/python-cffi-doc_1.16.0-3_all.deb
-Size: 149154
-SHA512: ba9c96a5d41eceb29230ff60b32901b3071c30b50805e65cafa559cc4b6a97c94678c44f38422b6a4653c1cff7fdc610e410295b52bc5533caaae06a205cd6dc
-SHA256: fa1496052f14fb9ed57d6730a741c6d8b1fc8b24bf22ef1596693347968bd7f8
-SHA1: bde81e7e826f8a01cf1a48bbfefc3aacaf1f3b11
-MD5sum: 497d029d4e60063816c68b089f2a5fb7
+Filename: pool/main/p/python-cffi/python-cffi-doc_1.16.0-4_all.deb
+Size: 149040
+SHA512: e296de5abf26a0fed65b862d154b13d702bd7cf22a3583837a5da5c05f3f7a6860ad160d303581c9e364eaa6da8bea94f37de9c7cbac0772aa03967bf6f2b5ff
+SHA256: 7920571d6b1c18f27afed42bb096fa25ce88a8532130fbc3df070c01e5e4a058
+SHA1: 9af2cdca3430e72dbceee64b57088e0228eaa93d
+MD5sum: ba8caf838541ba8b6485298cbe388b7b
 Description: Foreign Function Interface for Python calling C code - documentation
  Convenient and reliable way of calling C code from Python.
  .
@@ -191,21 +191,21 @@ Description: documentation for ruyi
 
 Package: python3-cffi
 Source: python-cffi
-Version: 1.16.0-3
+Version: 1.16.0-4
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 798
-Depends: python3-cffi-backend (<< 1.16.0-3+c), python3-cffi-backend (>= 1.16.0-3), python3 (<< 3.12), python3 (>= 3.10~), python3-pycparser, python3:any
+Installed-Size: 418
+Depends: python3-cffi-backend (<< 1.16.0-4+c), python3-cffi-backend (>= 1.16.0-4), python3-pycparser, python3:any
 Suggests: python3-dev
 Homepage: https://cffi.readthedocs.org/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-cffi/python3-cffi_1.16.0-3_all.deb
-Size: 175744
-SHA512: 6a180ce43842da43b454ea0356b3c3cb378e7e48beea9aca8dbd8e61e014bf35e2627ae589360f57556bb714fb81a488ebe075fe566f90aa7b4d7119f8c16171
-SHA256: a71d7b3373cdd98bbd2795567ba996b78f507b9bdded123affa1bf4dbb3cd793
-SHA1: da007a6e378a9a1c5d835d5956f0c330f14d727f
-MD5sum: 94bce2f0a6ca2ba6f215797c40964ca2
+Filename: pool/main/p/python-cffi/python3-cffi_1.16.0-4_all.deb
+Size: 94122
+SHA512: 807fcd049b263c349cc2a3759184554f66c9a1e480e2e0fb9c8c0160887f2c004bdc3ad4f15756c7f62ffa690df42cdfeae1c29d7291c098a0a6e0f7d857a5bb
+SHA256: 7b326b05abc51819a81e2ecb6f8e59870ca1b1cbf9f571a67a40930871c3666a
+SHA1: 919a22de7846f07c98d691f0b8fa1536a17e992c
+MD5sum: eb03f4b5f5899ac36e0664ede96acd64
 Description: Foreign Function Interface for Python 3 calling C code
  Convenient and reliable way of calling C code from Python 3.
  .
@@ -220,21 +220,22 @@ Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 
 Package: python3-cffi-backend
 Source: python-cffi
-Version: 1.16.0-3
+Version: 1.16.0-4
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 26
+Installed-Size: 411
+Depends: python3 (<< 3.12), python3 (>= 3.10~), libc6 (>= 2.34), libffi8 (>= 3.4)
 Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
 Multi-Arch: same
 Homepage: https://cffi.readthedocs.org/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-cffi/python3-cffi-backend_1.16.0-3_amd64.deb
-Size: 20020
-SHA512: 63f970c0e8d7d125e5d76eadf05337650f7ca0b81b0c4aa96fc2061a01e42a858c8848830ea817dca3abb706cd142c830dcf7d8825828606437b19114222b11a
-SHA256: 39d16b9c2d268efbc91cf88a959642b7e4d789b67eb1218951727c43a21c4ee6
-SHA1: d1b6375a72b7b631625a12fa4aad8497c50e14d0
-MD5sum: 65112c3d06d9bab3eaf8699d761e748f
+Filename: pool/main/p/python-cffi/python3-cffi-backend_1.16.0-4_amd64.deb
+Size: 104384
+SHA512: 3b755b2f07f6436db98ab1cd24ba1c27b0480634b1ac599f5e2e04c316397010cdd9c17e42ea803dfc0370d845c8c3332b4c3a59b911194aea54d85cfde47947
+SHA256: bd01e10042bd661a42f532830a28d07d6f04e024051f985d4a3292b9db1522a3
+SHA1: d92d349e871111782ab773a502774adcf2743625
+MD5sum: 81180e50fed179ad6d209c97bc4651bb
 Description: Foreign Function Interface for Python 3 calling C code - runtime
  Convenient and reliable way of calling C code from Python 3.
  .
