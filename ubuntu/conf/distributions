@@ -5,6 +5,7 @@ Codename: jammy
 Architectures: amd64 aarch64 riscv64
 Components: main
 Description: Ruyi ubuntu jammy repository
+Limit: 0
 
 Origin: ruyi
 Label: ruyi
@@ -13,3 +14,4 @@ Codename: noble
 Architectures: amd64 aarch64 riscv64
 Components: main
 Description: Ruyi ubuntu noble repository
+Limit: 0

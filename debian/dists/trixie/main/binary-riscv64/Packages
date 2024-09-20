@@ -60,6 +60,31 @@ MD5sum: f57bffdba88be46c1152e1820e24bec7
 Description: This is a small package to load and parse files (or just text)
  with YAML (or JSON, TOML or other) front matter.
 
+Package: python3-maturin
+Source: python-maturin
+Version: 1.6.0-3
+Architecture: riscv64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 10900
+Depends: python3-tomli | python3 (>> 3.11), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/pyo3/maturin
+Priority: optional
+Section: python
+Filename: pool/main/p/python-maturin/python3-maturin_1.6.0-3_riscv64.deb
+Size: 3530936
+SHA512: 6d5c8b2a8bb5c92f2938187af2b79add8f6244c6ee701a1dbb64a50ed53bda0fa42d1209bea81396269989c37fd08ae462ef688c36c5801b3477d20a479e74c5
+SHA256: bdcc0bfdadd56aeffb859a7fddaa774e54ff9c7d6dc3495454448132284a816b
+SHA1: a7d1c7ee6df31290ac2ea21b441f6d4b85ab2cda
+MD5sum: 0fc5392226aaee513a391832f9bbbfba
+Description: Build and publish crates with pyo3
+ Build tool and publish crates with pyo3, rust-cpython, cffi and uniffi
+ bindings as well as rust binaries as python packages.
+ .
+ This project is meant as a zero configuration replacement for setuptools-rust
+ and milksnake. It supports building wheels for python 3.7+ on windows, linux,
+ mac and freebsd, can upload them to pypi and has basic pypy and graalpy
+ support.
+
 Package: python3-ruyi
 Source: python-ruyi
 Version: 0.17.0-4

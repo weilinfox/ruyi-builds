@@ -1,3 +1,51 @@
+Package: libgit2-1.7
+Source: libgit2
+Version: 1.7.2-1
+Architecture: riscv64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 829
+Depends: libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libhttp-parser2.9 (>= 2.1), libpcre2-8-0 (>= 10.22), libssh2-1 (>= 1.7.0), libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://libgit2.github.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgit2/libgit2-1.7_1.7.2-1_riscv64.deb
+Size: 454704
+SHA512: c00f1939fe436f95d1a576d592a6db3b0c454f864a4191b6b7ebf896f311bc262479973eead1e64081ceb447920e08bc44b62f5e2c89ccf810aff45df8c43323
+SHA256: f1f3b8be9b49490f2db44af94be529f0bf92174b6e590ba4d38590eaadc4200e
+SHA1: 35c04fef724392ebbb98b33fd80fb93dae75e162
+MD5sum: f96c7ed30b8d7312f7a749670fa23b80
+Description: low-level Git library
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+
+Package: libgit2-dev
+Source: libgit2
+Version: 1.7.2-1
+Architecture: riscv64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12609
+Depends: libgit2-1.7 (= 1.7.2-1), zlib1g-dev, libssl-dev, libssh2-1-dev, libhttp-parser-dev, libpcre2-dev
+Multi-Arch: same
+Homepage: https://libgit2.github.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libgit2/libgit2-dev_1.7.2-1_riscv64.deb
+Size: 1857058
+SHA512: 09502a657a302dcbec515924c42e194038ab44ec2682b54b9a8805e1175bbb086bd1583d0845799d89c0ecdd833e48e0b9f5b206c5a53071b2a41e16202fca49
+SHA256: e2eb11362f67fe06df095862c6acf807d32049f2e5cbd3a410f8971b5b8e5642
+SHA1: b0e0947f69766a45bf90163d7d0c6c1b5cc82f3b
+MD5sum: 5eb1fa12c8fd360bf5d7ac63015666c9
+Description: low-level Git library (development files)
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+ .
+ This package contains the development files for libgit2.
+Original-Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+
 Package: libgit2-fixtures
 Source: libgit2
 Version: 1.7.2-1
@@ -170,6 +218,35 @@ Description: Foreign Function Interface for Python 3 calling C code
  modules.
 Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 
+Package: python3-cffi-backend
+Source: python-cffi
+Version: 1.16.0-4
+Architecture: riscv64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 329
+Depends: python3 (<< 3.12), python3 (>= 3.10~), libc6 (>= 2.34), libffi8 (>= 3.4)
+Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
+Multi-Arch: same
+Homepage: https://cffi.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-cffi/python3-cffi-backend_1.16.0-4_riscv64.deb
+Size: 101258
+SHA512: fa71009ac25dc19b8bb0a1af12f88f8294a7c6c5a69a5f76d9dd07c17af0169c841e70b4597581346ecda04731c9fa7d07b951a4623dbc8db15662ab0a33dbdd
+SHA256: 03caf0d16ca9abd716d7c8fbd548522bb082fe2848c50f39af49b64099d72178
+SHA1: 9d9e007fc9871b9df25664e8ee7bb3a99eb5e336
+MD5sum: 056f722a6c6f22780e4e77adf2b87446
+Description: Foreign Function Interface for Python 3 calling C code - runtime
+ Convenient and reliable way of calling C code from Python 3.
+ .
+ The aim of this project is to provide a convenient and reliable way of calling
+ C code from Python. It keeps Python logic in Python, and minimises the C
+ required. It is able to work at either the C API or ABI level, unlike most
+ other approaches, that only support the ABI level.
+ .
+ This package contains the runtime support for pre-built cffi modules.
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+
 Package: python3-frontmatter
 Source: python-frontmatter
 Version: 1.1.0-3
@@ -190,6 +267,31 @@ SHA1: fbe08c990186c2d731e7a924923d9d447766e9f1
 MD5sum: f57bffdba88be46c1152e1820e24bec7
 Description: This is a small package to load and parse files (or just text)
  with YAML (or JSON, TOML or other) front matter.
+
+Package: python3-maturin
+Source: python-maturin
+Version: 1.6.0-3
+Architecture: riscv64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 10900
+Depends: python3-tomli | python3 (>> 3.11), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/pyo3/maturin
+Priority: optional
+Section: python
+Filename: pool/main/p/python-maturin/python3-maturin_1.6.0-3_riscv64.deb
+Size: 3530936
+SHA512: 6d5c8b2a8bb5c92f2938187af2b79add8f6244c6ee701a1dbb64a50ed53bda0fa42d1209bea81396269989c37fd08ae462ef688c36c5801b3477d20a479e74c5
+SHA256: bdcc0bfdadd56aeffb859a7fddaa774e54ff9c7d6dc3495454448132284a816b
+SHA1: a7d1c7ee6df31290ac2ea21b441f6d4b85ab2cda
+MD5sum: 0fc5392226aaee513a391832f9bbbfba
+Description: Build and publish crates with pyo3
+ Build tool and publish crates with pyo3, rust-cpython, cffi and uniffi
+ bindings as well as rust binaries as python packages.
+ .
+ This project is meant as a zero configuration replacement for setuptools-rust
+ and milksnake. It supports building wheels for python 3.7+ on windows, linux,
+ mac and freebsd, can upload them to pypi and has basic pypy and graalpy
+ support.
 
 Package: python3-packaging
 Source: python-packaging
