@@ -2,5 +2,5 @@ Archive: stable
 Component: main
 Origin: ruyi
 Label: ruyi
-Architecture: aarch64
+Architecture: arm64
 Description: Ruyi debian trixie repository
