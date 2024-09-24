@@ -1,0 +1,110 @@
+Package: python-ruyi-doc
+Source: python-ruyi
+Version: 0.17.0-4
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 38
+Recommends: python3-ruyi
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-ruyi/python-ruyi-doc_0.17.0-4_all.deb
+Size: 20428
+SHA512: 13b49115664de20009c9d252e0160be89f0d07a9743fca70bc48053f4263e5c984e2de89e80451db3866fff83e40fd3e65c8d77e0effa4d3e0853a8e0eb068f5
+SHA256: 5274ea9be125efdec31b28fcf83156ff9e459a19f868a3ed4909ed2ae0d954e9
+SHA1: cdd41c4bf4b879819dd8037b204eac1b4b70600f
+MD5sum: c3a28fe3182e1c84531f5f6869264ee2
+Description: documentation for ruyi
+ Ruyi is a package manager for RuyiSDK.
+
+Package: python3-frontmatter
+Source: python-frontmatter
+Version: 1.1.0-3
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 46
+Depends: python3-yaml, python3:any
+Suggests: python-frontmatter-doc
+Multi-Arch: foreign
+Homepage: https://github.com/eyeseast/python-frontmatter
+Priority: optional
+Section: python
+Filename: pool/main/p/python-frontmatter/python3-frontmatter_1.1.0-3_all.deb
+Size: 9702
+SHA512: 42b18f89f959a5dfc802aa963247c5460aa5297652d17de079e53cca1b1039de75bcf9c446040f5a3f6a05aea0426d20245d51bec810508dcef4e12ceb3a5aaf
+SHA256: a7ad6285690e5a49a08b894f818f54079bce13c091a0f82cc671dc30ca8e3004
+SHA1: fbe08c990186c2d731e7a924923d9d447766e9f1
+MD5sum: f57bffdba88be46c1152e1820e24bec7
+Description: This is a small package to load and parse files (or just text)
+ with YAML (or JSON, TOML or other) front matter.
+
+Package: python3-ruyi
+Source: python-ruyi
+Version: 0.17.0-4
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 282
+Depends: python3-arpy, python3-certifi, python3-jinja2, python3-packaging (>= 24.0), python3-pygit2 (>= 1.14), python3-requests, python3-rich (>= 13.5), python3-semver (>= 3), python3-tomlkit (>= 0.12.4), python3-typeshed, python3-yaml, python3:any, python3-cffi (>= 1.16), python3-frontmatter, python3-xingque
+Suggests: python-ruyi-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ruyi/python3-ruyi_0.17.0-4_all.deb
+Size: 59654
+SHA512: f5fb7e886326bbcd33f08736a96383d607eb34e98826f8612e39edb9f1f0dbcd93bf7b7eb4a3d2fb6e8ffbe34851d17c7057e31c58561644515f9946c70fa4d6
+SHA256: b5b715f1bdc4eb33ce57a0b691fdc38eeb5d0db332b16c06ec8c43f9dbd6690c
+SHA1: 1e4f8f07ae11c9752cb56fe87d1777417d753f41
+MD5sum: cb43083a0cc0ef1c12250b28c59628dd
+Description: The package manager for RuyiSDK.
+
+Package: python3-semver
+Source: python-semver
+Version: 3.0.2-2
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 76
+Depends: python3:any
+Homepage: https://github.com/python-semver/python-semver
+Priority: optional
+Section: python
+Filename: pool/main/p/python-semver/python3-semver_3.0.2-2_all.deb
+Size: 17158
+SHA512: 26772d9b66e9a1aebbf9cfa606dfb0195937a86c572ea95826fae91055979fd0aeaadcd92e7ddbd1607ba306a3ff01cd33f4d5ead53c89c683b44d65ad29fc36
+SHA256: 7865d051e8338d0c23014c297d4c99d91eb791a990013c19967ea7f1bfb35872
+SHA1: a5ae886ae22592812aac41e4a68ba54219b64b42
+MD5sum: 94697b93d760f9459e61a08b7e430296
+Description: helps to compare semantic versioning - Python 3.x
+ This Python module helps to compare versions as noted at http://semver.org/.
+ The system is like this: given a version number MAJOR.MINOR.PATCH, increment
+ the:
+  * MAJOR version when you make incompatible API changes,
+  * MINOR version when you add functionality in a backwards-compatible
+    manner,
+  * PATCH version when you make backwards-compatible bug fixes.
+ .
+ Additional labels for pre-release and build metadata are available as
+ extensions to the MAJOR.MINOR.PATCH format.
+ .
+ This package contains the Python 3.x module.
+
+Package: ruyi
+Source: python-ruyi
+Version: 0.17.0-4
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 15
+Depends: python3.11 | python3 (>> 3.11), python3-ruyi
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ruyi/ruyi_0.17.0-4_all.deb
+Size: 3570
+SHA512: 768c904e4ae54b5ed05f9bb2e470efd6426c69f93fc56f2008c01314e51e2e6c2ccadbfdb05b8731e0dc0d31371f539bf461bf0b977400a8e4245d7c0b8cd833
+SHA256: ca3dd692f48d1e00832321f5d71d06b04b7b985840bd3ff62008bb7ceb4a85c6
+SHA1: f8bbbbb197e06c006d602c7447ed91379366595f
+MD5sum: 1d41ad68c95af5d9aee76531c19e75a9
+Description: The package manager for RuyiSDK.
+
