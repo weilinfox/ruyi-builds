@@ -363,6 +363,30 @@ Description: Poetry PEP 517 Build Backend
  is intended to be a light weight, fully compliant, self-contained package
  allowing PEP 517 compatible build frontends to build Poetry managed projects.
 
+Package: python3-pygit2
+Source: python-pygit2
+Version: 1.14.1-2
+Architecture: arm64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1147
+Depends: python3 (<< 3.12), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any, libc6 (>= 2.17), libgit2-1.7 (>= 1.7.0), openssl
+Suggests: python-pygit2-doc
+Homepage: https://github.com/libgit2/pygit2
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pygit2/python3-pygit2_1.14.1-2_arm64.deb
+Size: 189338
+SHA512: 2db58b20d966fb4a134ba9d7988a834d3ce35434dc4597169f6fbbef28835dbf607f05d8a95ce724dbf0ef9197b14c8fc0d2d131ee7fb05002de2fa71bdb54c6
+SHA256: 8f37c860c0f2a030d7d36bd79aabe195304e7443bbb8bd415c6173f86e99a792
+SHA1: 6b07162efe0455971d544f3c84323be4fe3e5ba3
+MD5sum: 74f861c5bd7372f92bff4a6c0dc5ebe6
+Description: Python bindings for libgit2 (Python 3 module)
+ The Pygit2 module provides a set of Python bindings to the libgit2 shared
+ library. libgit2 implements the core of Git. Pygit2 works with Python 2.7,
+ 3.x and pypy.
+ .
+ This package contains the Python 3 module.
+
 Package: python3-pygments
 Source: pygments
 Version: 2.14.0-1
