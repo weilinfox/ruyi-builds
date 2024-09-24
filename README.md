@@ -6,11 +6,11 @@
 
 ## Fedora 39/40/41
 
+riscv64 40 only
+
 ## openEuler 24.03
 
 ## Other supported distros
 
-+ openEuler 23.09
-+ Fedora 38
-+ openKylin 1.0/2.0
+Please refer to [ruyi-bin-builds](https://github.com/weilinfox/ruyi-bin-builds)
 
