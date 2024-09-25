@@ -135,6 +135,25 @@ Description: helps to compare semantic versioning - Python 3.x
  .
  This package contains the Python 3.x module.
 
+Package: python3-xingque
+Source: python-xingque
+Version: 0.2.0-1
+Architecture: arm64
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 7499
+Depends: python3 (>= 3~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/xen0n/xingque
+Priority: optional
+Section: python
+Filename: pool/main/p/python-xingque/python3-xingque_0.2.0-1_arm64.deb
+Size: 2056742
+SHA512: 3c3cf7c745fff62e345bf5aa436cb96e97a1b44a963dd8b0a74aa816dc7d39ee48565216f6e2465ca90602ca57409a8bb30d9227b60eb0e614de0fcf4ad123ad
+SHA256: 84a1303e1756abc239c9f4b44b0949fdf06f60701742d07f6718c6e7754ea9f6
+SHA1: 793a8b529c483898ee56315097bdf30e747860fe
+MD5sum: 33e0c4dc57ca304b804b53b14c1d265a
+Description: Yet another Python binding to starlark-rust,
+ exposing the Starlark language to your Python projects.
+
 Package: ruyi
 Source: python-ruyi
 Version: 0.17.0-4

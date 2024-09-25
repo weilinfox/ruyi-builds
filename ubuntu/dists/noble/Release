@@ -2,7 +2,7 @@ Origin: ruyi
 Label: ruyi
 Suite: stable
 Codename: noble
-Date: Tue, 24 Sep 2024 12:14:01 UTC
+Date: Wed, 25 Sep 2024 03:10:16 UTC
 Architectures: amd64 arm64 riscv64
 Components: main
 Description: Ruyi ubuntu noble repository
@@ -10,8 +10,8 @@ MD5Sum:
  77ec601b2d18663a260a21a55ed3f5ac 6467 main/binary-amd64/Packages
  bd95b277cbda26a5d87c73fd22121fb9 2738 main/binary-amd64/Packages.gz
  95e59e0dc494bcd8377dd305421267a8 119 main/binary-amd64/Release
- e1602e9e7cdc2d696cfa59fa47f91fe4 5663 main/binary-arm64/Packages
- 8782ebb3cb96dcdff28e87422697ffd8 2453 main/binary-arm64/Packages.gz
+ 81e1f4491dd46cf0044cf8bea0b11847 6467 main/binary-arm64/Packages
+ 0bf471181488b3fbb38000f633d215d7 2742 main/binary-arm64/Packages.gz
  124818dc6b4c6c912d915fe61e2f48de 119 main/binary-arm64/Release
  054ab12be738cdbeff0eaec73a36cbe5 6475 main/binary-riscv64/Packages
  6a5e771b7835c0e5d2f9b8677a127676 2744 main/binary-riscv64/Packages.gz
@@ -20,8 +20,8 @@ SHA1:
  49f5cfdcc0b69154bfacea977603865ea3adf76c 6467 main/binary-amd64/Packages
  97f625cb6ace9236ec72ec8f4ebbe46906a60715 2738 main/binary-amd64/Packages.gz
  9220a3fdd2348dd8c91979988f4ca181158580e7 119 main/binary-amd64/Release
- a7fc83ab881e9b69512f8d8d553f7fa71368add3 5663 main/binary-arm64/Packages
- 8002958fd40b7c5fad9d3187d4a5c0a75a304515 2453 main/binary-arm64/Packages.gz
+ 21814a607fbf2c06471794e2594513c018ac8193 6467 main/binary-arm64/Packages
+ 3a137921e53765fee3d8b1d1d2089674d73b09d5 2742 main/binary-arm64/Packages.gz
  20c9002e119a359e675619a256721e344d49c757 119 main/binary-arm64/Release
  086d2ef70bb638b25d1b9aa83b8558f0f8c92ad3 6475 main/binary-riscv64/Packages
  cc69e3afc951701676ef114877b39e6f57bcde69 2744 main/binary-riscv64/Packages.gz
@@ -30,8 +30,8 @@ SHA256:
  9c68b9a214b24867bfe0b6f6b27e15e74edf42a39c74338ea141cfaa551bc8f6 6467 main/binary-amd64/Packages
  06459737a0c50aa4c674fb69d655c61712cc071039c77a084ce6255141055d7e 2738 main/binary-amd64/Packages.gz
  e72cc0d5b038f13c112e6389a0c03dc67df6e377217e1dfad4599494730686ec 119 main/binary-amd64/Release
- f65244de1021cdafb5f01971228aafe8778a2857bf2ec75341a482d1c58fae75 5663 main/binary-arm64/Packages
- 7602a4a6fab5279d24e6818965d25c3468221cfdb2be79bcbe813f43eb67dcfb 2453 main/binary-arm64/Packages.gz
+ d9feeeb988f32c86e2a1f5a11dff032865d1ccdd82f75cdb8bb765923d135887 6467 main/binary-arm64/Packages
+ 45ce98c27da726ebc58ddd408e1019e067202bacfb44a8593b7ae2f36cc2f5b9 2742 main/binary-arm64/Packages.gz
  beb7bd6823106c14fdfc96b98b6b0685b491f87a93cb6b0c8df720de5ac48ee1 119 main/binary-arm64/Release
  a1c6bb75e116e3d3eb5543366ce82bdf23ea926874bb62cdd49c5095ce4b3f0c 6475 main/binary-riscv64/Packages
  ec15c64d5226b7aeca8f9a05063ada39835f60cb9088f9de910139bab75a664f 2744 main/binary-riscv64/Packages.gz
@@ -40,8 +40,8 @@ SHA512:
  a05cca5239865c694cfdf96f88be07b95cedfc331773d56274a0951b72bffc84bc60c47b60e7ea4cca07689a91c4863383df6b95424ead033c185fe5032a437f 6467 main/binary-amd64/Packages
  6ddce676daee922c72ad2d04f31845c8f2a4c5200851e5487b2a06e739c854dac34ee78c1de1f001841439c0c01481a31673c159e9d5a3b3c34b74be83a0761b 2738 main/binary-amd64/Packages.gz
  eadea21aa9ebcbca32a9f0bba82811be0b2cc08f98ff393c8d0372f0d93bb6820802f4bbb1de8674af5fff47d70c5b3d61a4f056e4d43bec2ea30329d7e80790 119 main/binary-amd64/Release
- 01bea14754b4b38f84faee5855dc5568ab4daae5ef1caa91662f2c6c14044e49df6bd44a2b00bae5e9206136d14a2784e07a4517368d5597d62fea44bea7290f 5663 main/binary-arm64/Packages
- 971a79efeaf94402a2442912dd432b586789f50eb27aacbcc9ddffcd304129518a5bd363c4c9bdc1739c717ea1434305f51eb44e331c898a63976b7f5516812b 2453 main/binary-arm64/Packages.gz
+ 86f20689605103f1f45697fe51e727818dc5f7b4ddc28313394830bd1af6780028f4cedf33dba165c25b0b7dbfa3c6cb5200a3753f5e881771f407141eda0e4f 6467 main/binary-arm64/Packages
+ e87dd5142b75bb1db5da4902a0dbaa3989381a84a0ae9815d05517e621c424deb8ae253bae791accd2a1a8741824cfd23192d592a8dc58b867dc12c81b43a500 2742 main/binary-arm64/Packages.gz
  dbcd723b808de6d9c8bdea8a7b99b68eb30679743ef106d74358870e95d16aaa89ddd5b0a131806a5f2d71f9761cafa71ee4d0ab57b2d0a40803da00657ccce8 119 main/binary-arm64/Release
  ac0de14f21027cec814c8bd28d99c88fbc0583163fa33b9a3019d92f91396bbec2e8973c3b0026ff9987f956c4c778ca0243f8e2e3dcf9db93f834f515970f82 6475 main/binary-riscv64/Packages
  4cb2869ba3ff1752922aa14dab2d83412f0cc1bf035f559aedc55eabc510c493d0ab1df5ed9ab7fd303b18a8e2f5f76945c08f149a015239e1e5e38647120946 2744 main/binary-riscv64/Packages.gz
