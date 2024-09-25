@@ -22,9 +22,18 @@ Archlinux 请使用 AUR 或 Arch Linux CN 社区源
 
 根据发行版类型在 ``/etc/apt/sources.list`` 中添加
 
-+ Debian trixie ``deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/debian/ trixie main``
-+ Ubuntu jammy ``deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/ubuntu/ jammy main``
-+ Ubuntu noble ``deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/ubuntu/ noble main``
++ Debian trixie
+  ```
+  deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/debian/ trixie main
+  ```
++ Ubuntu jammy
+  ```
+  deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/ubuntu/ jammy main
+  ```
++ Ubuntu noble
+  ```
+  deb [trusted=yes] https://github.com/weilinfox/ruyi-builds/raw/master/ubuntu/ noble main
+  ```
 
 保存后运行
 
