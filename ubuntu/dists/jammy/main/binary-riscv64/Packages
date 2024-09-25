@@ -466,6 +466,26 @@ Description: render rich text, tables, progress bars, syntax highlighting, markd
 
 Package: python3-ruyi
 Source: python-ruyi
+Version: 0.18.0-1
+Architecture: all
+Maintainer: weilinfox <caiweilin@iscas.ac.cn>
+Installed-Size: 284
+Depends: python3-arpy, python3-certifi, python3-jinja2, python3-packaging (>= 24.0), python3-pygit2 (>= 1.14), python3-requests, python3-rich (>= 13.5), python3-semver (>= 3), python3-tomlkit (>= 0.12.4), python3-typeshed, python3-yaml, python3:any, python3-cffi (>= 1.16), python3-frontmatter, python3-xingque
+Suggests: python-ruyi-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ruyisdk/ruyi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ruyi/python3-ruyi_0.18.0-1_all.deb
+Size: 60346
+SHA512: e5c8c2924428b83125796b405e522e98607de18508ee4322e871799de68cad1b35246b7524f08c264e034522f5ac5121bb874953cc1fe4ae4dda995358c43ceb
+SHA256: 2669ff31419e4fb6c4996fdb775449eba9d1d496bf4a1a1799cd2dd45cd3f6bf
+SHA1: f1d0d4ef17f2705c97cf3458524a6d88babc36ad
+MD5sum: 17d91b3dad387cfa2cc6d329affc28f2
+Description: The package manager for RuyiSDK.
+
+Package: python3-ruyi
+Source: python-ruyi
 Version: 0.17.0-4
 Architecture: all
 Maintainer: weilinfox <caiweilin@iscas.ac.cn>
