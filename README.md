@@ -52,7 +52,7 @@ sudo dnf update
 sudo dnf install ruyi
 ```
 
-## openEuler
+### openEuler
 
 当前只支持 openEuler 24.03 LTS
 
